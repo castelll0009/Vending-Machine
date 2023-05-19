@@ -2,7 +2,30 @@
  * Working on this
  */
 
+// const addLi = () => {  
+//     $("#stack").append('<li class="item-into-stack">nuevo Agregado</li>');
+//     // $( "#stack" ).append( "<p>TO GET ME</p>" );
+//   // try {
+//   //   let userInput = document.getElementById("text").value;
+//   //   let userListElement = document.createElement("li");
+//   //   userListElement.innerHTML = userInput;
+//   //   let list = document.getElementById("list");
+//   //   list.appendChild(userListElement);
+//   //   document.getElementById("text").value = "";
+//   // } catch (error) {
+//   //   console.error(error);
+//   // }
+// };
+ const addLi = () => {  
+  $("#stack").append('<li class="item-into-stack">nuevo Agregado</li>');
+ }
+
+// $('#btn_add_A').click(function() {
+// 	$("#stack").append('<li class="item-into-stack">nuevo Agregado</li>');
+// });
+
 class VendingMachine {
+  
     constructor() {
       this.display = null;
       this.selectVals();
