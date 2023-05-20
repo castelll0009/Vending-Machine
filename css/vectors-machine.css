@@ -88,6 +88,15 @@ body {
     grid-gap: 0.5em; */
 }
 
+.btn_add_A{
+    width: 100px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+}
+
 
 .stack{
     display: flex;
