@@ -119,15 +119,24 @@ body {
 .quees{
     max-width: 200px;
     min-width: 200px;
-    height: 300px;
+    height: -webkit-fill-available;
     background-color: rgb(0, 38, 255);
 }
 
-.itemsB{
-    max-width: 90%;
+.cont-products-horizontal{
+    max-width: 100%;
     min-width: 150px;
-    height: 150px;
+    padding: 5px;
+    margin-top: 0px;
+    /* margin: auto; */
+    /* margin-top: 0; */
+    height: fit-content;
     background-color: rgb(0, 255, 55);
+}
+.itemsB{
+    max-width: 100%;
+    min-width: 150px;
+   
 }
 .itemsB1{
     max-width: 90%;
@@ -148,9 +157,9 @@ body {
     background-color: rgb(255, 94, 0);
 }
 .itemsC{
-    max-width: 90%;
+   
     min-width: 150px;
-    height: 150px;
+    /* height: 150px; */
     background-color: rgb(238, 255, 0);
 }
 .itemsC1{
