@@ -102,13 +102,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100px;
-    min-width: 100px;
+    max-width: 80px;
+    min-width: 80px;
     height: 100%;
     background-color: #f3d7d7;
     padding: 10px;
 }
-.item-into-stack{    
+.cont-item-stack{
+    max-width: 50px;
+    min-width: 50px;
+    padding: 5px;
+    margin: 5px;
+    height: 90px;
+    background-color: rgb(255, 0, 255);
+}
+.cont-item{    
     max-width: 80px;
     min-width: 80px;
     padding: 5px;
@@ -117,8 +125,8 @@ body {
     background-color: rgb(255, 0, 255);
 }
 .quees{
-    max-width: 200px;
-    min-width: 200px;
+    max-width: 100%;
+    min-width: 100%;
     height: -webkit-fill-available;
     background-color: rgb(0, 38, 255);
 }
