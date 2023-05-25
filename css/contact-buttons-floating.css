@@ -108,26 +108,28 @@
     background: linear-gradient(0deg, #017AB1, #01ABE6);
   }
   
-  #main-button ~ .whatsapp-color {
-    background: linear-gradient(0deg, #00B100, #09db09);
+  #main-button ~ .mil-color {
+    background: rgb(255, 210, 96);
   }
   
-  #main-button ~ .messenger-color {
-    background: linear-gradient(0deg, #0078FF, #00C6FF);
+  #main-button ~ .golden-color {
+    background: goldenrod;
   }  
   
   #main-button ~ .view-color {
     background: linear-gradient(0deg, #ff9100, #fdcf00);
   }
   #main-button ~ .instagram-color {
-    background: linear-gradient(45deg, #f09433 0%,
+    background-color: rgb(190, 147, 6);
+    /* background: linear-gradient(45deg, #f09433 0%,
     #e6683c 25%,
     #dc2743 50%,
     #cc2366 75%,
-    #bc1888 100%);
+    #bc1888 100%); */
   }
-  #main-button ~ .facebook-color {
-    background: linear-gradient(0deg, #1877f2, #017AB1);
+  #main-button ~ .silver-color {
+    /* background: linear-gradient(0deg, #1877f2, #017AB1); */
+    background: silver;
   }
          
   
