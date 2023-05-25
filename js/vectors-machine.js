@@ -24,7 +24,7 @@
 // 	$("#stack").append('<li class="item-into-stack">nuevo Agregado</li>');
 // });
 
-class VendingMachine {
+class VendingMachineFrontend {
   
     constructor() {
       this.display = null;
@@ -103,5 +103,5 @@ class VendingMachine {
       item[0].style.left = "-50px";
     }
   }
-  new VendingMachine();
+  new VendingMachineFrontend();
   
